@@ -5,21 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Lernantino // Web Developer</title>
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
 
   <body>
     <!-- main logo / nav -->
     <header>
       <section class="navBar">
-      <h1>Kasia</h1>
-      <nav id="navigation">
-        <p>About me</p>
-        <p>Work</p>
-        <p>Contact me</p>
-        <p>Resume</p>
-      </nav>
-     </section>
+        <h1>Kasia</h1>
+        <img
+        src="./images 2/Myself.jpeg"
+        alt="Picture of Kasia"
+      />
+        <nav>
+          <a href="#about">About me</a>
+          <a href="#work">Work</a>
+          <a href="#contact-me">Contact me</a>
+          <a href="#resume">Resume</a>
+        </nav>
+      </section>
     </header>
 
     <!-- hero banner -->
@@ -33,16 +37,71 @@
       <!-- about me -->
       <section class="page-section" id="about">
         <h2>About Me</h2>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis
+            similique numquam commodi quia cum dolores, magni saepe ratione ab.
+            Sunt, earum adipisci temporibus nostrum consequatur magni obcaecati
+            alias hic sequi.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint autem
+            sunt suscipit pariatur a? Doloremque atque sapiente, officia enim
+            pariatur perferendis consequuntur distinctio illum. Delectus
+            exercitationem odio praesentium doloremque ad.
+          </p>
+        </div>
       </section>
 
       <!-- portfolio container -->
       <section class="page-section" id="work">
         <h2>Work</h2>
+        <div class="flex-grid-container"></div>
+        <a
+          href="https://lucky-ganache-391779.netlify.app/"
+          class="flex-grid-item cv"
+        >
+          <div>
+            <h1>My CV</h1>
+            <span>Check it out!</span>
+          </div>
+        </a>
+        <a
+          href="https://drzazga88.github.io/Code-refactor/"
+          class="flex-grid-item refactor"
+        >
+          <div>
+            <h1>Code refactor</h1>
+            <span>HTML + CSS</span>
+          </div>
+        </a>
+        <a
+          href="https://drzazga88.github.io/prework-study-guide/"
+          class="flex-grid-item prework"
+        >
+          <div>
+            <h1>Pre-work Study Guide</h1>
+            <span>HTML</span>
+          </div>
+        </a>
+        <a href="#" class="flex-grid-item placeholder">
+          <div>
+            <h1>Placeholder</h1>
+            <span>To be added</span>
+          </div>
+        </a>
       </section>
 
       <!-- contact -->
       <section class="page-section contact" id="contact">
         <h2>Contact Me</h2>
+        <div>
+          <address>
+            <a href="mailto:drzewiecka.katarzyna88@gmail.com">drzewiecka.katarzyna88@gmail.com</a>
+            <a href="tel:+447459025272">+447459025272</a>
+            <a href="https://www.linkedin.com/in/kasia-drzewiecka-51664666/">Linkedin</a>
+          </address>
+        </div>
       </section>
     </main>
   </body>

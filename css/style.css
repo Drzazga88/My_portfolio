@@ -26,21 +26,44 @@ p {
 .navBar {
   display: flex;
   flex-direction: row;
+  background-color: rgb(251, 133, 133);
   flex-wrap: wrap;
-  background-color: black;
-  justify-content: space-evenly;
-  margin: 0px 5%;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 15px 5% 15px 0;
+  box-shadow: 0 10px 25px gray;
+  color:rgb(191, 55, 55);
 }
 
-h1 {
-  background-color: lightblue;
-  width: 25%;
+.navBar h1 {
+  background-color: rgb(244, 205, 185);
+  padding: 5px 1% 5px 6%;
+  margin: 0;
 }
 
-#navigation {
+img{
+  max-width: 100%;
+  height: 200px;
+  border-radius: 50%;
+  margin-left: -47%;
+}
+
+nav {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
   justify-content: space-evenly;
-  width: 40%;
+  width: 35%;
+  margin-right: -6%;
+  padding: 15px 5% 15px 0;
+  background-color: rgb(244, 205, 185);
 } 
+
+nav a{
+  color:rgb(191, 55, 55);
+}
+
+nav a:hover{
+  text-decoration: rgb(251, 133, 133) 4px underline overline;
+}
